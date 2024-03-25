@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 3</title>
+
+    <style>
+      .container {
+        width: 600px;
+        margin: auto;
+        padding: 20px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 5px;
+      }
+      .container h1 {
+        text-align: center;
+      }
+      .tasks {
+        display: flex;
+        justify-content: center;
+      }
+      ol > li {
+        margin: 10px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Day 3 Tasks</h1>
+      <hr />
+      <div class="tasks">
+        <ol>
+          <li>
+            How to Compare Two JSON have the same properties without order ?
+            <br />
+            <code style="margin: 10px auto">
+              const obj1 = {name: "Person1", age: 5}; <br />
+              const obj2 = {age: 5, name: "Person1"};
+            </code>
+          </li>
+          <li>
+            Use the rest countries API Url: https://restcountries.com/v3.1/all
+            and display all the country flags in the console.
+          </li>
+          <li>
+            Use the rest countries API Url: https://restcountries.com/v3.1/all
+            and display all the country name, regions, sub-regions and
+            population.
+          </li>
+        </ol>
+      </div>
+      <p style="text-align: center; font-weight: bold; font-size: 16px">
+        <i>Hint: See console for the outputs</i>
+      </p>
+    </div>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
